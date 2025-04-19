@@ -7,10 +7,10 @@ function Contact() {
   return (
     <div>
       <Header />
-      <section className="bg-black mt-[85px] flex flex-col justify-evenly h-min-screen">
+      <section className="bg-black mt-[85px] flex flex-col justify-evenly items-center   min-h-screen">
         
        
-        <div className="mt-7 mx-10 p-14 text-cursive text-4xl text-orange-300 border-[20px] rounded-[30px] border-amber-400">
+        <div className="mt-7 sm:mx-auto md:mx-10 p-7   text-cursive text-2xl md:text-4xl text-orange-300 border-[20px] rounded-[30px] border-amber-400">
           Greetings!!! Viewer <br />
           It would be a great pleasure if my CV seems to be an attractive one to you. 
           So, if you want to Hire me <br />
@@ -28,7 +28,7 @@ function Contact() {
         </div>
 
         
-        <div className="flex justify-evenly mt-10">
+        <div className="  flex items-center flex-col md:flex-row  justify-evenly sm:mt-6 md:mt-10 ">
           
      
           <a href="https://github.com/SaiyedMuhammadAnasMaududi" target="_blank" rel="noopener noreferrer">

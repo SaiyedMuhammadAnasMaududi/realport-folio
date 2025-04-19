@@ -11,12 +11,12 @@ export default function Home() {
     <div className="flex flex-col pt-6 h-screen ">
       <Header></Header>
 
-    <div  className="bg-cover flex-grow grid-container grid-item  justify-center items-center  gap-3"
+    <div  className="bg-cover flex-grow flex-shrink grid-container  justify-center items-center  gap-3"
     style={{ backgroundImage: "url('/images/background2.jpg')" }}>
-      <div className=" flex flex-col w-auto h-20 mr-4 pl-11 pt-28 justify-center items-center relative bottom-9">
+      <div className=" flex flex-col w-auto sm:h-fit md:h-20  sm:mr-1 md:mr-4  sm:pl-4 md:pl-11 pt-28 justify-center items-center  bottom-9 relative">
      <AnimatedText ></AnimatedText>
        </div>
-     <div  className="    flex justify-center  items-center   ">
+     <div  className="flex justify-center  items-center   ">
         
         <Image
           src="/images/anas.jpg" 
